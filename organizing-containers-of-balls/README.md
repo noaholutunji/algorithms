@@ -4,13 +4,13 @@ David has several containers, each with a number of balls in it. He has just eno
 
 As an example, David has n = 2 containers and 2 different types of balls, both of which are numbered from 0 to n-1 = 1 . The distribution of ball types per container are described by an  n X n matrix of integers, M[container][type]. For example, consider the following diagram for M = [[1,4], [2,3]]:
 
-https://s3.amazonaws.com/hr-challenge-images/0/1485811368-9e78c98652-swapping-balls.png
+![Fig](https://s3.amazonaws.com/hr-challenge-images/0/1485811368-9e78c98652-swapping-balls.png)
 
 In a single operation, David can swap two balls located in different containers.
 
 The diagram below depicts a single swap operation:
 
-https://s3.amazonaws.com/hr-challenge-images/0/1485811849-e97b84e218-swapping-balls-ps-1.png
+![Fig](https://s3.amazonaws.com/hr-challenge-images/0/1485811849-e97b84e218-swapping-balls-ps-1.png)
 
 David wants to perform some number of swap operations such that:
 1. Each container contains only balls of the same type.
@@ -52,14 +52,13 @@ Explanation 0
 We perform the following q = 2 queries:
 1. The diagram below depicts one possible way to satisfy David's requirements for the first query: 
 
-https://s3.amazonaws.com/hr-challenge-images/0/1485813936-37f8a37dad-swapping-balls-sample-0-0.png
+![Fig](https://s3.amazonaws.com/hr-challenge-images/0/1485813936-37f8a37dad-swapping-balls-sample-0-0.png)
 
 Thus, we print Possible on a new line.
 
 2. The diagram below depicts the matrix for the second query: 
 
-https://s3.amazonaws.com/hr-challenge-images/0/1485814141-d283776840-swapping-balls-sample-0-2.png
-
+![Fig](https://s3.amazonaws.com/hr-challenge-images/0/1485814141-d283776840-swapping-balls-sample-0-2.png)
 No matter how many times we swap balls of type t0 and t1 between the two containers, we'll never end up with one container only containing type t0  and the other container only containing type t1. Thus, we print Impossible on a new line.
 
 Sample Input 1
